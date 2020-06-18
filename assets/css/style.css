@@ -8,18 +8,80 @@
     line-height: 80px;
 }
 
-@media (max-width: 767px) {
-    .navbar-nav > li > a {
-    line-height: 50px;
-    width: 150px;
-    padding-top: 40px;
-    padding-bottom: 0px;}
-    .logo {
-      width: 320px;
-      height: 100px;
-    }
-}
 .navbar-brand {
   padding-top: 100px;
   padding-left: 20px;
+}
+.tabOpt {
+  background: #fff;
+  border: 0.1px white solid;
+  border-radius: 10px;
+  width: 20%;
+  margin-left: 10%;
+  height: 100%;
+  transition: 1s;
+}
+.innerTxt {
+  padding-top: 70%;
+}
+.slct {
+  transform: translateY(40px);
+}
+.dataMain {
+  padding-top: 20px;
+  font-size: 35px;
+}
+.txt1 {
+  border-radius: 20px;
+  background: lightblue;
+  width: 300px;
+  color: #157;
+  text-align: center
+}
+.txt2 {
+  border-radius: 20px;
+  background: #99f;
+  width: 300px;
+  color: darkblue;
+  text-align: center
+}
+.txt3 {
+  border-radius: 20px;
+  background: pink;
+  width: 300px;
+  color: red;
+  text-align: center
+}
+.txt4 {
+  border-radius: 20px;
+  background: rgba(0 ,0 , 0, 0.1);
+  width: 300px;
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center
+}
+.txt5 {
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 300px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center
+}
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    width: 150px;
+    }
+    .logo {
+      width: 280px;
+      height: 80px;
+    }
+    .tabOpt {
+      background: #fff;
+      border: 0.1px white solid;
+      border-radius: 10px;
+      width: 25%;
+      margin-left: 5%;
+      height: 20vh;
+      transition: 1s;
+    }
 }

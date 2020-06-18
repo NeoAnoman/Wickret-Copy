@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-    <nav class="navbar fixed-bottom navbar-expand-sm navbar-light">
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-light" style="background-color: #fff">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a href="#" class="nav-link"><img style="object-fit: cover;" src="./assets/images/1.png" height="100%" width="100%"></a></li>
         <li class="nav-item "><a href="#" class="nav-link"><img src="./assets/images/2.png" height="100%" width="100%"></a></li>
@@ -19,10 +19,141 @@
     <nav class="navbar navbar-expand-sm">
       <a class="navbar-brand" href="#"><img class="logo" src="./assets/images/5.png" ></a>
     </nav>
-    
+    <div class="row" style="margin-left: 20%; height: 10%; background: rgba(0, 0, 0, 0.01)">
+      <div data-target="#carouselOnly" data-slide-to="0" id="first" class="col-xs-4 tabOpt slct" onclick="btnClk('first')">
+        <img src="./assets/images/6.png">
+        <div class="innerTxt">
+          <h2>$12.457</h2>
+          all cards
+        </div>
+      </div>
+      <div data-target="#carouselOnly" data-slide-to="1" id="sec" class="col-xs-4 tabOpt" onclick="btnClk('sec')">
+        <img src="./assets/images/6.png">
+        <div class="innerTxt">
+          <h2>$12.457</h2>
+          all cards
+        </div>
+      </div>
+      <div data-target="#carouselOnly" data-slide-to="2" id="third" class="col-xs-4 tabOpt" onclick="btnClk('third')">
+        <img src="./assets/images/6.png">
+        <div class="innerTxt">
+          <h2>$12.457</h2>
+          all cards
+        </div>
+      </div>
+    </div>
+    <div id="carouselOnly" class="carousel slide" style="padding-top: 10%;height: 80vh;">
+      <div class="carousel-inner" style="overflow: scroll;height: 100%">
+        <div class="carousel-item active">
+          <div class="dataMain">
+            <table style="margin-left: 28%" class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">stats</th>
+                  <th scope="col" class="hideMe">month</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="hideMe">
+                  <td style="color: rgba(0, 0, 0, 0.3)">Income</td>
+                  <td><b>+$7 344.33</b></td>
+                </tr>
+                <tr class="hideMe">
+                  <td style="color: rgba(0, 0, 0, 0.3)">Expence</td>
+                  <td><b>-$4 132.77</b></td>
+                </tr>
+                <tr>
+                  <td class="hideMe"></td>
+                  <td><b>$ 246</b>  </td>
+                </tr>
+              </tbody>
+            </table>
+            <img src="./assets/images/7.png" width="100%">
+            <table style="margin-top: 12%;margin-left: 18%" class="table table-borderless">
+              <thead>
+                <tr class="hideMe">
+                  <th scope="col" >August '18</th>
+                  <th scope="col" >$12 546</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="./assets/images/8.png" align="middle" height="200px" width="200px">
+                  </td>
+                  <td class="hideMe">
+                    <ul type="none" style="margin-left: -15%; font-size: 30px">
+                      <li class="txt1">Transfers $2500</li>
+                      <li class="txt2">Asos $124</li>
+                      <li class="txt3">Supermarkets $1200</li>
+                      <li class="txt4">Fuel $1200</li>
+                      <li class="txt5">Other $1500</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table style="margin-left: 28%" class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">stats</th>
+                  <th scope="col" class="hideMe">month</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="hideMe">
+                  <td style="color: rgba(0, 0, 0, 0.3)">Income</td>
+                  <td><b>+$7 344.33</b></td>
+                </tr>
+                <tr class="hideMe">
+                  <td style="color: rgba(0, 0, 0, 0.3)">Expence</td>
+                  <td><b>-$4 132.77</b></td>
+                </tr>
+                <tr>
+                  <td class="hideMe"></td>
+                  <td><b>$ 246</b>  </td>
+                </tr>
+              </tbody>
+            </table>
+            <img src="./assets/images/7.png" width="100%">
+            <table style="margin-top: 12%;margin-left: 18%; margin-bottom: 18%;" class="table table-borderless">
+              <thead>
+                <tr class="hideMe">
+                  <th scope="col" >August '18</th>
+                  <th scope="col" >$12 546</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="./assets/images/8.png" align="middle" height="200px" width="200px">
+                  </td>
+                  <td class="hideMe">
+                    <ul type="none" style="margin-left: -15%; font-size: 30px">
+                      <li class="txt1">Transfers $2500</li>
+                      <li class="txt2">Asos $124</li>
+                      <li class="txt3">Supermarkets $1200</li>
+                      <li class="txt4">Fuel $1200</li>
+                      <li class="txt5">Other $1500</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./assets/images/6.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./assets/images/6.png" alt="Third slide">
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./assets/script/scrpt.js"></script>
   </body>
 </html>
