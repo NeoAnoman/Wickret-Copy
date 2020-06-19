@@ -132,7 +132,7 @@ ul > .trns {
       border: 0.1px white solid;
       border-radius: 25px;
       width: 25%;
-      margin-left: 5%;
+      margin-left: 10%;
       height: 20vh;
       transition: 1s;
     }
@@ -141,7 +141,7 @@ ul > .trns {
       border: 0.1px white solid;
       border-radius: 25px;
       width: 20%;
-      margin-left: 5%;
+      margin-left: 10%;
       height: 20vh;
       transition: 1s;
       color: white;
@@ -151,7 +151,7 @@ ul > .trns {
       border: 0.1px white solid;
       border-radius: 25px;
       width: 20%;
-      margin-left: 5%;
+      margin-left: 10%;
       height: 20vh;
       transition: 1s;
       color: white;
