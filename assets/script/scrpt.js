@@ -3,6 +3,8 @@ function btnClk(prop) {
   document.querySelector('#'+prop).classList.add('slct');
 }
 function showAll() {
+  document.querySelector('.bck').classList.remove('fa-credit-card');
+  document.querySelector('.bck').classList.add('fa-step-backward');
   document.querySelectorAll('.hideMe').forEach((item, i) => {
     item.classList.remove('hideMe')
   });
@@ -48,6 +50,8 @@ function onScrl() {
 }
 
 function hideAll() {
+  document.querySelector('.bck').classList.remove('fa-step-backward');
+  document.querySelector('.bck').classList.add('fa-credit-card');
   var j=1;
   document.querySelectorAll('.trns').forEach((item, i) => {
     if(item.classList.contains("mvp")) {
