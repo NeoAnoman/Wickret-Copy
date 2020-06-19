@@ -117,8 +117,10 @@
     width: 150px;
     }
     .logo {
-      width: 280px;
-      height: 80px;
+      width: 250px;
+      height: 100px;
+      object-fit: cover;
+
     }
     .tabOpt {
       background: #fff;
