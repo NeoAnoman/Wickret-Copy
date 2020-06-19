@@ -19,7 +19,22 @@ function showAll() {
     item.classList.remove('moveup3')
   });
 }
-window.onscroll = function() {
+// window.onscroll = function() {
+//   var scroll = window.pageYOffset;
+//   var Y = 100;
+//   if (scroll > Y){
+//     showAll();
+//   }
+//   else {
+//     if(document.querySelectorAll('.hideMe').length==0) {
+//       hideAll();
+//     }
+//   }
+// }
+$(document.body).on('touchmove', onScrl);
+$(window).on('scroll', onScrl);
+
+function onScrl() {
   var scroll = window.pageYOffset;
   var Y = 100;
   if (scroll > Y){
@@ -31,6 +46,7 @@ window.onscroll = function() {
     }
   }
 }
+
 function hideAll() {
   var j=1;
   document.querySelectorAll('.trns').forEach((item, i) => {
