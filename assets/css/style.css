@@ -100,6 +100,9 @@
   height: 0px;
   visibility: hidden;
 }
+.horz {
+  width: 80%;
+}
 .moveup1 {
   margin-top: -11%;
 }
