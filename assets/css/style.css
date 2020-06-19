@@ -112,8 +112,8 @@
   margin-left: 20%;
 }
 
-.trans>li {
-  font-size: 100px;
+ul > .trns {
+  margin-bottom: 20px
 }
 
 @media (max-width: 767px) {
