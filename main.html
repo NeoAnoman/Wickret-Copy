@@ -27,14 +27,14 @@
           all cards
         </div>
       </div>
-      <div data-target="#carouselOnly" data-slide-to="1" id="sec" class="col-xs-4 tabOpt" onclick="btnClk('sec')">
+      <div data-target="#carouselOnly" data-slide-to="1" id="sec" class="col-xs-4 tabOpt2" onclick="btnClk('sec')">
         <img src="./assets/images/6.png">
         <div class="innerTxt">
           <h2>$12.457</h2>
           all cards
         </div>
       </div>
-      <div data-target="#carouselOnly" data-slide-to="2" id="third" class="col-xs-4 tabOpt" onclick="btnClk('third')">
+      <div data-target="#carouselOnly" data-slide-to="2" id="third" class="col-xs-4 tabOpt3" onclick="btnClk('third')">
         <img src="./assets/images/6.png">
         <div class="innerTxt">
           <h2>$12.457</h2>
@@ -45,101 +45,96 @@
     <div id="carouselOnly" class="carousel slide" style="padding-top: 10%;height: 80vh;">
       <div class="carousel-inner" style="overflow: scroll;height: 100%">
         <div class="carousel-item active">
-          <div class="dataMain">
-            <table style="margin-left: 28%" class="table table-borderless">
-              <thead>
-                <tr>
-                  <th scope="col">stats</th>
-                  <th scope="col" class="hideMe">month</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="hideMe">
-                  <td style="color: rgba(0, 0, 0, 0.3)">Income</td>
-                  <td><b>+$7 344.33</b></td>
-                </tr>
-                <tr class="hideMe">
-                  <td style="color: rgba(0, 0, 0, 0.3)">Expence</td>
-                  <td><b>-$4 132.77</b></td>
-                </tr>
-                <tr>
-                  <td class="hideMe"></td>
-                  <td><b>$ 246</b>  </td>
-                </tr>
-              </tbody>
-            </table>
-            <img src="./assets/images/7.png" width="100%">
-            <table style="margin-top: 12%;margin-left: 18%" class="table table-borderless">
-              <thead>
-                <tr class="hideMe">
-                  <th scope="col" >August '18</th>
-                  <th scope="col" >$12 546</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <img src="./assets/images/8.png" align="middle" height="200px" width="200px">
-                  </td>
-                  <td class="hideMe">
+          <div class="dataMain" onclick="showAll()">
+
+
+                <div class="row">
+                  <div class="col-3 offset-2">stats</div>
+                  <div class="col-4 offset-3 hideMe trns">month</div>
+                </div>
+
+
+                <div class="hideMe trns row">
+                  <div class="col-3 offset-2" style="color: rgba(0, 0, 0, 0.3)">Income</div>
+                  <div class="col-4 offset-3" ><b>+$7 344.33</b></div>
+                </div>
+                <div class="hideMe trns row">
+                  <div class="col-3 offset-2" style="color: rgba(0, 0, 0, 0.3)">Expence</div>
+                  <div class="col-4 offset-3" ><b>-$4 132.77</b></div>
+                </div>
+                <div>
+                  <div class="col-4 offset-9 moveup trns" ><b>$ 246</b>  </div>
+                </div>
+
+              <br>
+            <img src="./assets/images/7.png" class="scaleMe trns" width="100%">
+            <br><br><br>
+
+                <div class="hideMe trns row">
+                  <div class="col-4 offset-1" ><b>August '18 </b></div>
+                  <div class="col-4 offset-3" ><b>$12 546 </b></div>
+                </div>
+
+                <br>
+                <div class="row">
+                  <div class="col-4 offset-1 moveup2 trns">
+                    <img src="./assets/images/8.png" align="middle" height="241px" width="225px">
+                  </div>
+                  <div class="col-4 offset-1">
                     <ul type="none" style="margin-left: -15%; font-size: 30px">
-                      <li class="txt1">Transfers $2500</li>
-                      <li class="txt2">Asos $124</li>
-                      <li class="txt3">Supermarkets $1200</li>
-                      <li class="txt4">Fuel $1200</li>
-                      <li class="txt5">Other $1500</li>
+                      <li class="txt1 hideMe trns">divansfers $2500</li>
+                      <li class="txt2 hideMe trns">Asos $124</li>
+                      <li class="txt3 hideMe trns">Supermarkets $1200</li>
+                      <li class="txt4 hideMe trns">Fuel $1200</li>
+                      <li class="txt5 hideMe trns">Other $1500</li>
                     </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <table style="margin-left: 28%" class="table table-borderless">
-              <thead>
-                <tr>
-                  <th scope="col">stats</th>
-                  <th scope="col" class="hideMe">month</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="hideMe">
-                  <td style="color: rgba(0, 0, 0, 0.3)">Income</td>
-                  <td><b>+$7 344.33</b></td>
-                </tr>
-                <tr class="hideMe">
-                  <td style="color: rgba(0, 0, 0, 0.3)">Expence</td>
-                  <td><b>-$4 132.77</b></td>
-                </tr>
-                <tr>
-                  <td class="hideMe"></td>
-                  <td><b>$ 246</b>  </td>
-                </tr>
-              </tbody>
-            </table>
-            <img src="./assets/images/7.png" width="100%">
-            <table style="margin-top: 12%;margin-left: 18%; margin-bottom: 18%;" class="table table-borderless">
-              <thead>
-                <tr class="hideMe">
-                  <th scope="col" >August '18</th>
-                  <th scope="col" >$12 546</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <img src="./assets/images/8.png" align="middle" height="200px" width="200px">
-                  </td>
-                  <td class="hideMe">
+                  </div>
+                </div>
+
+
+                <br>
+                <div class="hideMe trns row">
+                  <div class="col-4 offset-1" ><b>August '18 </b></div>
+                  <div class="col-4 offset-3" ><b>$12 546 </b></div>
+                </div>
+                <br>
+                <div class="row" >
+                  <div class="hideMe trns col-4 offset-1">
+                    <img class="hideMe" src="./assets/images/8.png" align="middle" height="241px" width="225px">
+                  </div>
+                  <div class="col-4 offset-1">
                     <ul type="none" style="margin-left: -15%; font-size: 30px">
-                      <li class="txt1">Transfers $2500</li>
-                      <li class="txt2">Asos $124</li>
-                      <li class="txt3">Supermarkets $1200</li>
-                      <li class="txt4">Fuel $1200</li>
-                      <li class="txt5">Other $1500</li>
+                      <li class="txt1 hideMe trns">Transfers $2500</li>
+                      <li class="txt2 hideMe trns">Asos $124</li>
+                      <li class="txt3 hideMe trns">Supermarkets $1200</li>
+                      <li class="txt4 hideMe trns">Fuel $1200</li>
+                      <li class="txt5 hideMe trns">Other $1500</li>
                     </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                  </div>
+                </div>
+                <br>
+                <div class="moveup3">
+                  <div class="row">
+                    <div class="col-8 offset-1">
+                      <h2><b>history</b></h2>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-6 offset-1">
+                      <div class="media">
+                        <img class="align-self-center mr-3" src="./assets/images/9.png" alt="Generic placeholder image" height="100%" width="20%">
+                        <div class="media-body">
+                          <h2 class="mt-0"><b>MyCom</b></h2>
+                          <h3>Debit.</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <h2><b>$0.52</b></h2>
+                    </div>
+                  </div>
+                </div>
           </div>
         </div>
         <div class="carousel-item">

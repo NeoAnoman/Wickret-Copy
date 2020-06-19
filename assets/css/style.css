@@ -15,14 +15,34 @@
 .tabOpt {
   background: #fff;
   border: 0.1px white solid;
-  border-radius: 10px;
+  border-radius: 25px;
   width: 20%;
   margin-left: 10%;
   height: 100%;
   transition: 1s;
 }
+.tabOpt2 {
+  background: blue;
+  border: 0.1px white solid;
+  border-radius: 25px;
+  width: 20%;
+  margin-left: 10%;
+  height: 100%;
+  transition: 1s;
+  color: white;
+}
+.tabOpt3 {
+  background: skyblue;
+  border: 0.1px white solid;
+  border-radius: 25px;
+  width: 20%;
+  margin-left: 10%;
+  height: 100%;
+  transition: 1s;
+  color: white;
+}
 .innerTxt {
-  padding-top: 70%;
+  padding-top: 100%;
 }
 .slct {
   transform: translateY(40px);
@@ -30,6 +50,7 @@
 .dataMain {
   padding-top: 20px;
   font-size: 35px;
+  padding-bottom: 20%
 }
 .txt1 {
   border-radius: 20px;
@@ -66,6 +87,30 @@
   color: rgba(0, 0, 0, 0.6);
   text-align: center
 }
+
+.trns {
+  transition: 1s;
+}
+
+.hideMe {
+  font-size: 0px;
+  height: 0px;
+}
+.moveup {
+  margin-top: -50px;
+}
+.moveup2 {
+  margin-top: -50%;
+}
+.moveup3 {
+  margin-top: -30%;
+}
+.scaleMe {
+  transform: scaleX(0.6);
+  margin-left: 20%;
+}
+
+
 @media (max-width: 767px) {
     .navbar-nav > li > a {
     line-height: 20px;
@@ -78,10 +123,30 @@
     .tabOpt {
       background: #fff;
       border: 0.1px white solid;
-      border-radius: 10px;
+      border-radius: 25px;
       width: 25%;
       margin-left: 5%;
       height: 20vh;
       transition: 1s;
+    }
+    .tabOpt2 {
+      background: blue;
+      border: 0.1px white solid;
+      border-radius: 25px;
+      width: 20%;
+      margin-left: 5%;
+      height: 20vh;
+      transition: 1s;
+      color: white;
+    }
+    .tabOpt3 {
+      background: skyblue;
+      border: 0.1px white solid;
+      border-radius: 25px;
+      width: 20%;
+      margin-left: 5%;
+      height: 20vh;
+      transition: 1s;
+      color: white;
     }
 }
