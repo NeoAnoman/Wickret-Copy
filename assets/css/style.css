@@ -91,7 +91,9 @@
 .trns {
   transition: 1s;
 }
-
+.scl {
+  object-fit: cover;
+}
 .hideMe {
   font-size: 0px;
   height: 0px;
@@ -110,6 +112,9 @@
   margin-left: 20%;
 }
 
+.trans>li {
+  font-size: 100px;
+}
 
 @media (max-width: 767px) {
     .navbar-nav > li > a {
