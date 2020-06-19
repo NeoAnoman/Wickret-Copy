@@ -32,11 +32,11 @@ window.onscroll = function() {
   }
 }
 function hideAll() {
-  var i=1;
+  var j=1;
   document.querySelectorAll('.trns').forEach((item, i) => {
     if(item.classList.contains("mvp")) {
-      item.classList.add("moveup"+i);
-      i++;
+      item.classList.add("moveup"+j);
+      j++;
     }
     else if (item.classList.contains("scl")) {
       item.classList.add("scaleMe");
