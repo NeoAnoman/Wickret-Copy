@@ -98,9 +98,10 @@
 .hideMe {
   font-size: 0px;
   height: 0px;
+  visibility: hidden;
 }
 .moveup1 {
-  margin-top: -50px;
+  margin-top: -11%;
 }
 .moveup2 {
   margin-top: -50%;
